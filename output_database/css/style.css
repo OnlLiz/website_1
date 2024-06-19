@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.img-fixed {
+    width: 400px;
+    height: 154px;
+    object-fit: cover; /* Зберігає співвідношення сторін, заповнюючи контейнер */
+}
+
+.card-title {
+    color: #007bff;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 50px;
+    background: #343a40;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+* {
+    /*margin: 0;
+    padding: 0;
+    box-sizing: border-box;*/
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.field-wrapper {
+    background-color: #f8f9fa; /* блідо-сірий фон контейнера */
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto; /* центрує форму по горизонталі */
+    max-width: 600px; /* обмеження ширини форми */
+}
+
